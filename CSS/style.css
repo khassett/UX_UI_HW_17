@@ -14,7 +14,10 @@
     .item3 { grid-area: right; }
     .item4 { grid-area: footer; }
 
-
+#vector1{
+    position:absolute;
+    z-index: -999;
+}
 
 
 h1{
@@ -81,12 +84,9 @@ p{
     font-size: 18px;
 	}
 
-    a:visited {
-        text-decoration: black;
-      }
-    a:hover {
-        text-decoration: black
-      }
+    a {
+        text-decoration: none;
+    }
 
     .main-nav{
         display: flex;
@@ -137,38 +137,7 @@ p{
     padding: 25 px;
 }
 
-    /* Green Swirl  */
-
-    #greenswirl
-    {position: absolute;
-    width: 100%;
-    height: 1644.85px;
-    }
-    
-        /* Vector 1 */
-        #vector1 {
-        position: absolute;
-        width: 100%;
-        height: 1417.2px;
-        background: #B9C8BC;
-        opacity: 0.5;
-        border-radius: 338.274px;
-        transform: rotate(5.46deg);
-        }
-
-        /* Vector 2 */
-        #vector2 {
-        position: absolute;
-        width: 100%;
-        height: 1417.2px;
-        left: -828.07px;
-        top: -1149px;
-        background: #B9C8BC;
-        opacity: 0.5;
-        border-radius: 338.274px;
-        transform: rotate(5.46deg);
-        }
-
+   
 #intro{
     width: 576px;
     height: 230px;
